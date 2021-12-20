@@ -28,10 +28,16 @@ monitors:
     name: DMiT 香港
     url: 'http://dmit.20100909.xyz:2052/home'
     method: GET
-    expectStatus: 200
+    expectStatus: 400
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+
 
   - id: Hosthatch-hk
     name: Hosthatch 香港 
     url: 'http://hkhh.20100909.xyz:2052/home'
     method: GET
-    expectStatus: 200
+    expectStatus: 400
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+
