@@ -26,14 +26,14 @@ monitors:
 
   - id: dmit-hk
     name: DMiT 香港
-    url: 'http://dmit.20100909.xyz:2052/home'
+    url: 'http://dmit.20100909.xyz:2052/'
     method: GET
-    expectStatus: 400
+    expectStatus: 404
 
 
   - id: Hosthatch-hk
     name: Hosthatch 香港 
-    url: 'http://hkhh.20100909.xyz:2052/home'
+    url: 'http://hkhh.20100909.xyz:2052/'
     method: GET
-    expectStatus: 400
+    expectStatus: 404
 
