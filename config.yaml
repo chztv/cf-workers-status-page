@@ -26,12 +26,12 @@ monitors:
 
   - id: dmit-hk
     name: DMiT 香港
-    url: 'http://dmit.20100909.xyz:2052/'
+    url: 'http://dmit.20100909.xyz:2052/home'
     method: GET
     expectStatus: 200
 
   - id: Hosthatch-hk
     name: Hosthatch 香港 
-    url: 'http://hkhh.20100909.xyz:2052/'
+    url: 'http://hkhh.20100909.xyz:2052/home'
     method: GET
     expectStatus: 200
