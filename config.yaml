@@ -29,8 +29,6 @@ monitors:
     url: 'http://dmit.20100909.xyz:2052/home'
     method: GET
     expectStatus: 400
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
 
 
   - id: Hosthatch-hk
@@ -38,6 +36,4 @@ monitors:
     url: 'http://hkhh.20100909.xyz:2052/home'
     method: GET
     expectStatus: 400
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
 
